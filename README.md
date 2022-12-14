@@ -15,5 +15,11 @@
 - PRIMER: Restoranot moze da go zamislime kako API
     1. Gostin === Klient - pravi baranje do server/baza(gotvac) preku Kelner(request, povik)
     2. Kelner === Povik do server/baza so podatocite sto gi dobil od gostinot(klientot)
-    3. Gotvac/Kujna === Server/baza (vraka odreden odgovor vo zavisnost sto pobaral gostinot(klientot))
+    3. Gotvac/Kujna === Server/baza (vrajka odreden odgovor vo zavisnost sto pobaral gostinot(klientot))
 
+
+# Nauci povejke za FETCH()
+1. `fetch()` metodot go zapocnuva procesot na povelkuvanje podatoci od server
+2. `fetch()` metodot ni vrajka `PROMISE` sto se pretvara vo objekt koj ni go vratil serverot
+3. Pred `fetch()` se koristese `XMLHttpRequest()` - povejke ne se koristi
+4. Preku `fetch()` moze da koristime sekakvi `HTTP Methods`
